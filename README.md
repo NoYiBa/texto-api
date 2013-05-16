@@ -25,6 +25,12 @@ replace: <br />
 	//enter your api username
 	$username = '';
 
+	//enter sender
+	$from = "";
+	
+	//enter recipient's number
+	$to = "";
+	
 with: <br />
 	//enter your key
 	$key = 'example-key'; 
@@ -32,6 +38,11 @@ with: <br />
 	//enter your api username
 	$username = 'example-username';
 
+	//enter sender
+	$from = "example-sender";
+	
+	//enter recipient's number
+	$to = "example-recipient";
 
 Then run test.php
 
