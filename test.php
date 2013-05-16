@@ -6,11 +6,11 @@
 	//Send an SMS
 	//sends one sms and returns a text
 	
-	//enter your api_key
-	$api_key = ''; 
+	//enter your api key
+	$key = ''; 
 	
 	//enter your api username
-	$user = '';
+	$username = '';
 	
 	//enter message to be send
 	$msg = "I love wasaTEXTO";
@@ -22,7 +22,7 @@
 	$to = "";
 		
 	//send the message and a notice is returned
-	$api = new Api($api_key, $user);
+	$api = new Api($key, $username);
 	
 	$result = $api->send($msg, $from, $to);
 		

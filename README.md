@@ -1,7 +1,7 @@
 texto-api
 ========
 
-#This is a PHP Class to send sms using wasaTEXTO REST API
+This is a PHP Class to send sms using wasaTEXTO REST API
 
 ## Installation
 
@@ -14,25 +14,25 @@ You must have a basic Apache and PHP environement:
 Add the class package (texto-api) to the root of your virtual host or domain</b>.
 
 ### API access
-Every wasaTEXTO installation must use a unique key for the API. [Do not hesitate to ask for a key!](mailto:support@wasamundi.com)
+Every <a href="http://www.wasamundi.com/texto">wasaTEXTO</a> installation must use a unique key for the API. [Do not hesitate to ask for a key!](mailto:support@wasamundi.com)
 
 When you recieve the key replace the following in the test file test.php
 
-replace:
-	//enter your api_key
-	$api_key = ''; 
+replace: <br />
+	//enter your api key
+	$key = ''; 
 	
 	//enter your api username
-	$user = '';
+	$username = '';
 
-with: 
-	//enter your api_key
-	$api_key = 'eaxample-key'; 
+with: <br />
+	//enter your key
+	$key = 'example-key'; 
 	
 	//enter your api username
-	$user = 'eaxample-username';
+	$username = 'example-username';
 
 
 Then run test.php
 
-Check the Api v2 Documentation for more info or [Contact WAasamundi Support](mailto:support@wasamundi.com) :)
+Check the Api v2 Documentation for more info or [Contact Wasamundi Support](mailto:support@wasamundi.com) :)
