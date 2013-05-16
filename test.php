@@ -9,7 +9,7 @@
 	//enter your api_key
 	$api_key = ''; 
 	
-	//enter your company name
+	//enter your api username
 	$user = '';
 	
 	//enter message to be send
