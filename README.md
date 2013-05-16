@@ -1,7 +1,7 @@
 texto-api
 ========
 
-This is a PHP Class to send sms using wasaTEXTO REST API
+#This is a PHP Class to send sms using wasaTEXTO REST API
 
 ## Installation
 
@@ -36,3 +36,5 @@ with: <br />
 Then run test.php
 
 Check the Api v2 Documentation for more info or [Contact Wasamundi Support](mailto:support@wasamundi.com) :)
+
+
