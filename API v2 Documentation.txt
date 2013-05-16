@@ -1,0 +1,64 @@
+Documentation
+
+To Send SMS directly with thE URL
+Format of URL = http://api.wasamundi.com/v2/texto/send_sms?user=[Your_NAME]&api_key=[YOUR_API_KEY]
+                &from=[FROM]&to=[RECIEVER]&msg=[SMS]
+
+To Check Balance directly with thw URL
+Format of URL = http://api.wasamundi.com/v2/texto/balance?user=[Your_NAME]&api_key=[YOUR_API_KEY]
+
+
+================================
+
+FIELDS
+--------------------------------
+
+[YOUR_API_KEY]: is a unique key provided by WasaTEXTO
+[Your_NAME]: your name
+[SMS]: text to be send
+[FROM]: Sender of text
+[RECIEVER]: Reciever of text
+
+#None of the above fields should have spaces expt the msg#
+NB: you can use urlencode for the fields
+
+=================================
+
+NOTICES
+---------------------------------
+
+
+1. [status] = 200
+   [notice] = Success: Your sms has been send
+   [message_count] = 1
+   #SMS SEND# message_count is the number of sms send
+
+2. [status] = 200
+   [notice] = Success
+   [balance] = 1
+   #this is to check balance
+   
+3. [status] = 400
+   [notice] = All fields must be set
+   [message_count] = 0
+   #SMS NOT SEND: You must set all FIELDS#
+
+4. [status] = 401
+   [notice] = Your Api fields don't match
+   [message_count] = null
+   #SMS NOT SEND: Either your name or api key is wrong #
+
+5. [status] = 402 
+   [notice] = Error: No data provide
+   [message_count] = 0   
+   #SMS NOT SEND: no data is provided#	
+
+6. [status] = 403
+   [notice] = Recharge your Account
+   [message_count] = 0
+   #SMS NOT SEND: You don't have enough credit#
+
+7. [status] = 404
+   [notice] = Techinacl Error
+   [message_count] = 0
+   #SMS NOT SEND, invalid data type E.G WRONG PHONE NUMBER
