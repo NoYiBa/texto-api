@@ -1,7 +1,7 @@
 texto-api
 ========
 
-#This is a PHP Class to send sms using wasaTEXTO REST API
+This is a PHP Class to send sms using wasaTEXTO REST API
 
 ## Installation
 
@@ -18,7 +18,8 @@ Every <a href="http://www.wasamundi.com/texto">wasaTEXTO</a> installation must u
 
 When you recieve the key replace the following in the test file test.php
 
-replace: <br />
+replace:
+
 	//enter your api key
 	$key = ''; 
 	
@@ -31,7 +32,8 @@ replace: <br />
 	//enter recipient's number
 	$to = "";
 	
-with: <br />
+with: 
+
 	//enter your key
 	$key = 'example-key'; 
 	
