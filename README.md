@@ -14,9 +14,9 @@ You must have a basic Apache and PHP environement:
 Add the class package (texto-api) to the root of your virtual host or domain</b>.
 
 ### API access
-Every <a href="http://www.wasamundi.com/texto">wasaTEXTO</a> installation must use a unique key for the API. [Do not hesitate to ask for a key!](mailto:support@wasamundi.com)
+Every <a href="http://www.wasamundi.com/texto">wasaTEXTO</a> installation must use a unique key for the API. Please <a href="http://www.wasamundi.com/accounts?app=texto&redirect=http://www.wasamundi.com/texto/login">create an account</a> on www.wasatexto.com to get your unique API credentials.
 
-When you recieve the key replace the following in the test file test.php
+When you get your credentials, replace the following in the test file test.php
 
 replace:
 
