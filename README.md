@@ -50,6 +50,8 @@ with:
 
 Then run test.php
 
+Command to run test.php in a Linux environment is: <b>php -f test.php</b>
+
 Check the Api v2 Documentation for more info or [Contact Wasamundi Support](mailto:support@wasamundi.com) :)
 
 
