@@ -16,6 +16,8 @@ Add the class package (texto-api) to the root of your virtual host or domain</b>
 ### API access
 Every <a href="http://www.wasamundi.com/texto">wasaTEXTO</a> installation must use a unique key for the API. Please <a href="http://www.wasamundi.com/accounts?app=texto&redirect=http://www.wasamundi.com/texto/login">create an account</a> on www.wasatexto.com to get your unique API credentials.
 
+After you login to your account obtain your account details(api credentials) from <a href="http://www.wasamundi.com/texto/api/usage">here </a></b>.
+
 When you get your credentials, replace the following in the test file test.php
 
 replace:
@@ -47,6 +49,8 @@ with:
 	$to = "example-recipient";
 
 Then run test.php
+
+Command to run test.php in a Linux environment is: <b>php -f test.php</b>
 
 Check the Api v2 Documentation for more info or [Contact Wasamundi Support](mailto:support@wasamundi.com) :)
 

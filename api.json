@@ -1,0 +1,42 @@
+   
+[
+  {
+        "name":"WasaTEXTO",
+        "configurables": [
+		    "api_key",
+			"user",
+            "from"
+        ],
+        "outgoing":{
+            "maxSmsSize":"160",
+            "hasAuthentication":"false",
+            "millisecondsBetweenMessages":"1",
+            "exponentialBackOffRetries":"true",
+            "maxRecipient":"1",
+            "request":{
+                "type":"GET",
+                "urlPath":"http://api.wasamundi.com/v2/texto/send_sms",
+                "recipientsSeparator":",",
+                "millisecondsBetweenMessages":"1",
+                "queryParameters":{
+                "from":"[from]",
+               "api_key":"[api_key]",
+               "user":"[user]",
+                "to":"[recipients]",
+                 "msg":"[message]"
+                    
+                }
+            },
+            "response":{
+                "successStatus": "200",
+                "multiLineRecipientResponse": "false"
+                
+            }
+        },
+        "status":{
+            "statusKey": "SmsStatus",
+            "statusSuccess": "sent"
+        }
+        
+    }
+	]
